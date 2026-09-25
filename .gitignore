@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local runtime data
+data/
+memory/
+knowledge/
+models/
+cache/
+logs/
+downloads/
+workspace/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local books / documents
+library/
+
+# Secrets and machine-specific config
+.env
+.env.*
+!.env.example
+config.local.*
+secrets.*
+
+# Model weights
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.bak
+*.log
